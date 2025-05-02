@@ -21,6 +21,8 @@ struct allocator_data_instace
 
 enum allocator_type
 {
+    TYPE_ALLOCATOR_NONE = 0,
+
     TYPE_ALLOCATOR_STATIC,
     TYPE_ALLOCATOR_INSTANCE,
 };

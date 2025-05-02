@@ -43,6 +43,8 @@ int instance_allocator_clean(instance_allocator_t* allocator)
     }
 
     allocator->instance.clean_func(allocator->instance.data);
+    allocator->instance.clean_func = NULL;
+    allocator->instance.data = NULL;
     return 2;
 }
 
