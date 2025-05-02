@@ -3,8 +3,6 @@
 
 #include "allocator_types.h"
 
-#include <stdlib.h>
-
 
 void* static_allocator_malloc(static_allocator_t* allocator, size_t size);
 void* static_allocator_realloc(static_allocator_t* allocator, void* ptr, size_t size);

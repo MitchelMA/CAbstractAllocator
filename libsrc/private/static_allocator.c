@@ -1,4 +1,5 @@
 #include <static_allocator.h>
+#include <stdlib.h>
 
 static static_allocator_t default_static_alloc = {
     .malloc_func =   malloc,
